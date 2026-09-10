@@ -1,7 +1,11 @@
 [project]
-name = "ai-agent-security-and-safety"
+name = "ai-agent-security-and-safety-learning"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "langchain>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-openai>=1.6.2",
+]
